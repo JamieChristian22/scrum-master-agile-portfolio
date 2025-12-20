@@ -1,5 +1,5 @@
 
-# 🟦 Scrum Master Portfolio – Job Ready (10/10)
+# 🟦 Scrum Master Portfolio 
 
 ![Agile](https://img.shields.io/badge/Agile-Scrum-blue)
 ![Jira](https://img.shields.io/badge/Tool-Jira-blue)
