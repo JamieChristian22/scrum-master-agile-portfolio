@@ -1,291 +1,80 @@
-# 01 - Retail Agile Transformation
-
-![Scrum](https://img.shields.io/badge/Framework-Scrum-blue)
-![SAFe](https://img.shields.io/badge/Methodology-SAFe-orange)
-![Agile](https://img.shields.io/badge/Approach-Agile-success)
-![Jira](https://img.shields.io/badge/Tool-Jira-blue)
-![Azure DevOps](https://img.shields.io/badge/Platform-Azure_DevOps-0078D7)
-![Retail](https://img.shields.io/badge/Industry-Retail-red)
-![Status](https://img.shields.io/badge/Project-Enterprise_Ready-brightgreen)
-![Sprint Planning](https://img.shields.io/badge/Focus-Sprint_Planning-yellow)
-![Release Planning](https://img.shields.io/badge/Focus-Release_Management-purple)
-
 # Enterprise Retail Agile Transformation
 
 ## Project Overview
 
-This enterprise Agile transformation initiative focused on modernizing Agile delivery operations for a large retail organization experiencing sprint instability, release delays, cross-team dependency bottlenecks, inconsistent backlog prioritization, and low stakeholder confidence.
+**Domain:** Retail / E-commerce  
+**Delivery teams:** 3  
+**Simulated team members:** 24  
+**Sprints analyzed:** 6
 
-The initiative supported multiple Agile delivery teams responsible for:
-- E-commerce platform enhancements
-- Customer checkout optimization
-- Mobile retail experiences
-- Inventory synchronization
-- Order fulfillment modernization
-- Executive KPI reporting
-- CI/CD deployment readiness
+Sprint instability, changing priorities, late QA validation, cross-team dependencies, release delays, and low stakeholder confidence across e-commerce, inventory, mobile, and DevOps delivery.
 
-The Scrum Master led Agile delivery coordination across Product, Engineering, QA, DevOps, Operations, and Business stakeholders while supporting enterprise Agile governance and SAFe delivery practices.
+### Scrum Master Objective
 
----
+Stabilize sprint execution, improve predictability, reduce carryover and escaped defects, and establish sustainable Agile team practices.
 
-# Business Problem
+This project demonstrates Scrum Master capability beyond running meetings. The artifacts show explicit team agreements, backlog readiness standards, impediment aging, retrospective experiments, flow metrics, team-health measurement, coaching, maturity assessment, dependency management, and ceremony-quality feedback.
 
-The organization faced several enterprise delivery challenges:
+> **Disclosure:** This is a realistic Agile portfolio simulation. Metrics and scenarios are fictionalized for demonstration.
 
-| Challenge | Business Impact |
-|---|---|
-| Sprint carryover exceeded 35% | Reduced delivery predictability |
-| Cross-team dependencies delayed releases | Increased stakeholder escalations |
-| Backlog priorities frequently changed | Reduced sprint stability |
-| QA signoffs occurred late in sprint cycles | Increased release risk |
-| Agile ceremonies lacked structure | Reduced Agile maturity |
-| Stakeholder communication was inconsistent | Low executive confidence |
+## Outcome Scorecard
 
----
-
-# Project Objectives
-
-- Improve Agile maturity across delivery teams
-- Reduce sprint carryover and release delays
-- Increase sprint predictability
-- Improve backlog refinement processes
-- Strengthen stakeholder communication
-- Improve release governance
-- Reduce escaped production defects
-- Improve cross-functional alignment
-
----
-
-# Scrum Master Responsibilities
-
-## Agile Facilitation
-- Facilitated daily standups
-- Led sprint planning sessions
-- Conducted sprint retrospectives
-- Coordinated sprint reviews and demos
-- Facilitated backlog refinement sessions
-- Supported release readiness reviews
-
-## Agile Governance
-- Maintained RAID logs
-- Escalated delivery blockers
-- Coordinated dependency management
-- Supported PI Planning
-- Managed sprint health reporting
-- Conducted governance reviews
-
-## Stakeholder Management
-- Delivered executive KPI updates
-- Coordinated stakeholder alignment meetings
-- Managed sprint communication reporting
-- Escalated delivery risks to leadership
-- Supported release governance discussions
-
-## Agile Coaching
-- Improved Scrum ceremony consistency
-- Coached teams on Agile best practices
-- Improved backlog refinement quality
-- Increased retrospective action completion
-- Strengthened sprint commitment accuracy
-
----
-
-# Agile Delivery Structure
-
-```text
-Product Owner
-      │
-Scrum Master
-      │
-────────────────────────
-Engineering Team
-QA Team
-DevOps Team
-Business Analysts
-Operations Team
-Architecture Team
-────────────────────────
-Executive Stakeholders
-```
-
----
-
-# Sprint Planning Summary
-
-| Sprint | Capacity | Committed Story Points | Delivered Story Points | Sprint Completion | Risk Level |
-|---|---:|---:|---:|---:|---|
-| Sprint 1 | 145 | 123 | 119 | 96% | Medium |
-| Sprint 2 | 148 | 131 | 127 | 97% | Low |
-| Sprint 3 | 150 | 138 | 136 | 98% | Low |
-| Sprint 4 | 152 | 142 | 140 | 99% | Low |
-
----
-
-# Product Backlog Overview
-
-| Epic | Feature | Priority | Owner | Status |
-|---|---|---|---|---|
-| Customer Experience | Checkout Optimization | High | Product Owner | Completed |
-| DevOps Modernization | CI/CD Automation | High | Engineering | In Progress |
-| Retail Analytics | Executive KPI Dashboard | Medium | BI Team | Completed |
-| Inventory Synchronization | Warehouse API Integration | High | Architecture | In Progress |
-| Mobile Retail Experience | Mobile Checkout Flow | Medium | Product Team | Completed |
-
----
-
-# User Stories
-
-| Story ID | User Story | Acceptance Criteria | Priority |
-|---|---|---|---|
-| US-101 | As a customer, I want faster checkout | Checkout loads under 3 seconds | High |
-| US-102 | As leadership, I want KPI visibility | Dashboard updates in real-time | Medium |
-| US-103 | As operations, I want inventory sync alerts | Alerts generated within 1 minute | High |
-| US-104 | As QA, I want automated testing | Regression tests execute automatically | Medium |
-
----
-
-# RAID Log
-
-| ID | Risk / Issue | Impact | Mitigation Strategy | Status |
-|---|---|---|---|---|
-| R101 | Scope creep during sprint execution | High | Weekly backlog refinement | Mitigated |
-| R102 | Dependency delays between teams | Medium | Cross-team sync meetings | Monitoring |
-| R103 | Resource constraints during release | Medium | Capacity planning | Open |
-| R104 | Late QA validation | High | Shift-left testing strategy | Mitigated |
-
----
-
-# KPI Dashboard
-
-| KPI | Before Transformation | After Transformation |
+| KPI | Baseline | Final |
 |---|---:|---:|
-| Sprint Velocity | 51 | 86 |
-| Sprint Carryover | 35% | 7% |
-| Escaped Defects | 15 | 3 |
-| Stakeholder Satisfaction | 6.8 | 9.4 |
-| Release Predictability | 58% | 93% |
-| Retrospective Action Completion | 42% | 91% |
+| Velocity | 51 | **86** |
+| Sprint carryover | 35% | **7%** |
+| Escaped defects | 15 | **3** |
+| Stakeholder satisfaction | 6.8/10 | **9.4/10** |
+| Release predictability | 58% | **93%** |
+| Retro action completion | 42% | **91%** |
+| Median cycle time | 8.6 days | **4.7 days** |
+| Blocked-work rate | 19% | **6%** |
 
----
+## Sprint Trend
 
-# Agile Ceremonies
+| Sprint | Velocity | Carryover | Predictability | Retro Actions | Cycle Time | Blocked Work |
+|---|---:|---:|---:|---:|---:|---:|
+| Sprint 1 | 51 | 35% | 58% | 42% | 8.6 days | 19% |
+| Sprint 2 | 58 | 29% | 65% | 52% | 7.8 days | 16% |
+| Sprint 3 | 65 | 24% | 72% | 62% | 7.0 days | 14% |
+| Sprint 4 | 72 | 18% | 79% | 71% | 6.3 days | 11% |
+| Sprint 5 | 79 | 13% | 86% | 81% | 5.5 days | 9% |
+| Sprint 6 | 86 | 7% | 93% | 91% | 4.7 days | 6% |
 
-| Ceremony | Duration | Objective |
-|---|---|---|
-| Daily Standup | 15 Minutes | Team alignment and blocker management |
-| Sprint Planning | 2 Hours | Sprint commitment and prioritization |
-| Backlog Refinement | 1 Hour | Story clarification and sizing |
-| Sprint Review | 1 Hour | Stakeholder demo and feedback |
-| Retrospective | 1 Hour | Continuous improvement |
-| PI Planning | Quarterly | Cross-team roadmap alignment |
+## Product / Delivery Themes
 
----
+- Checkout Optimization
+- Inventory Synchronization
+- Mobile Retail Experience
+- CI/CD Modernization
+- Executive Retail Analytics
 
-# Stakeholder Communication Strategy
+## Primary Risks Managed
 
-| Stakeholder Group | Communication Type | Frequency |
-|---|---|---|
-| Executive Leadership | KPI Dashboard Review | Weekly |
-| Product Leadership | Sprint Health Review | Weekly |
-| Engineering Leadership | Dependency Alignment | Twice Weekly |
-| Operations | Release Readiness Updates | Weekly |
-| Business Stakeholders | Sprint Demo | End of Sprint |
+- Mid-sprint scope changes
+- Late QA validation
+- Inventory API dependency
+- Release-window resource conflict
+- Product priority churn
 
----
+## Scrum Master Interventions
 
-# Release Planning Summary
+- Co-created working agreements for focus, communication, quality, escalation and collaboration.
+- Introduced explicit Definition of Ready and Definition of Done criteria.
+- Shifted sprint planning toward evidence-based forecasting and a clear Sprint Goal.
+- Created an impediment-aging process and escalation threshold.
+- Converted retrospectives into measurable experiments with follow-through.
+- Introduced team-health measurement to surface collaboration and safety concerns.
+- Added flow metrics alongside velocity.
+- Established dependency aging and named owners.
+- Built coaching plans for the Product Owner and Developers.
+- Assessed Agile maturity and created an improvement roadmap.
+- Measured ceremony effectiveness and adjusted facilitation.
 
-| Release | Objective | Quarter | Status |
-|---|---|---|---|
-| Release 1.0 | Platform Stabilization | Q1 | Completed |
-| Release 2.0 | Customer Analytics Expansion | Q2 | In Progress |
-| Release 3.0 | Inventory Automation | Q3 | Planned |
+## Artifact Library
 
----
+The project includes 13 fully populated Scrum Master craft artifacts plus a multi-sheet Agile analytics workbook.
 
-# Business Outcomes
+## Final Assessment
 
-## Operational Improvements
-- Improved sprint predictability by 44%
-- Reduced sprint carryover by 52%
-- Increased release confidence across leadership teams
-- Improved Agile governance maturity
-
-## Delivery Improvements
-- Increased sprint velocity by 47%
-- Reduced production defects by 38%
-- Improved dependency management coordination
-- Increased retrospective action completion
-
-## Stakeholder Improvements
-- Increased stakeholder satisfaction scores
-- Improved executive visibility into delivery metrics
-- Reduced escalations related to release delays
-- Strengthened cross-functional collaboration
-
----
-
-# Tools & Technologies
-
-- Jira
-- Confluence
-- Azure DevOps
-- Microsoft Excel
-- PowerPoint
-- Agile KPI Dashboards
-- RAID Tracking
-- Sprint Analytics
-- SAFe Governance
-
----
-
-# Agile Skills Demonstrated
-
-- Scrum Facilitation
-- Sprint Planning
-- Backlog Refinement
-- Agile Coaching
-- SAFe Coordination
-- PI Planning
-- Stakeholder Management
-- Release Governance
-- Dependency Management
-- KPI Reporting
-- Risk Mitigation
-- Agile Transformation
-- Delivery Optimization
-- Cross-Functional Leadership
-
----
-
-# Repository Structure
-
-```text
-Sprint_Planning/
-Product_Backlog/
-Sprint_Backlogs/
-User_Stories/
-Burndown_Charts/
-Velocity_Reports/
-Retrospectives/
-Stakeholder_Communication/
-RAID_Logs/
-Risk_Management/
-KPI_Dashboards/
-Release_Planning/
-Agile_Ceremonies/
-PowerPoint/
-Excel_Files/
-Final_Report/
-```
-
----
-
-# Author
-
-Jamie Christian
-
-GitHub: https://github.com/JamieChristian22/scrum-master-agile-portfolio
-
----
+The improvement pattern shows a healthier delivery system, not simply higher velocity. Carryover, defects, blocked work and cycle time declined while predictability, stakeholder confidence and retrospective follow-through improved.

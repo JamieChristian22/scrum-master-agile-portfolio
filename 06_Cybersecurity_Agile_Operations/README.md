@@ -1,318 +1,80 @@
-# 06 - Cybersecurity Agile Operations
-
-![Scrum](https://img.shields.io/badge/Framework-Scrum-blue)
-![SAFe](https://img.shields.io/badge/Methodology-SAFe-orange)
-![Agile](https://img.shields.io/badge/Approach-Agile-success)
-![Cybersecurity](https://img.shields.io/badge/Industry-Cybersecurity-darkred)
-![Security Operations](https://img.shields.io/badge/Focus-Security_Operations-red)
-![Incident Response](https://img.shields.io/badge/Focus-Incident_Response-purple)
-![SIEM](https://img.shields.io/badge/Platform-SIEM-green)
-![DevSecOps](https://img.shields.io/badge/Environment-DevSecOps-blue)
-![Jira](https://img.shields.io/badge/Tool-Jira-blue)
-![Enterprise Ready](https://img.shields.io/badge/Portfolio-Enterprise_Ready-brightgreen)
-
-# Enterprise Cybersecurity Agile Operations
+# Cybersecurity Agile Operations
 
 ## Project Overview
 
-This enterprise cybersecurity Agile operations initiative focused on modernizing security delivery operations, improving incident response coordination, strengthening Agile governance, improving release readiness, and scaling DevSecOps collaboration across enterprise cybersecurity teams.
+**Domain:** Cybersecurity / Operations  
+**Delivery teams:** 3  
+**Simulated team members:** 25  
+**Sprints analyzed:** 6
 
-The organization supported:
-- security operations center (SOC) workflows,
-- SIEM monitoring platforms,
-- vulnerability management operations,
-- incident response programs,
-- DevSecOps integrations,
-- compliance reporting systems,
-- and enterprise risk governance operations.
+Unplanned security work, incident interruptions, unclear prioritization, cross-functional blockers, and governance reporting demands disrupted planned Agile delivery.
 
-The cybersecurity organization experienced delivery instability caused by:
-- delayed incident response coordination,
-- inconsistent vulnerability remediation workflows,
-- security deployment bottlenecks,
-- poor cross-functional communication,
-- dependency delays,
-- inconsistent Agile ceremonies,
-- and limited executive visibility into operational security metrics.
+### Scrum Master Objective
 
-The Scrum Master supported enterprise cybersecurity delivery operations by coordinating Agile ceremonies, facilitating incident-response governance, improving backlog refinement, managing delivery risks, supporting PI Planning, improving DevSecOps coordination, and strengthening stakeholder communication across Security, Engineering, Operations, Compliance, and Executive leadership teams.
+Create an Agile operating model that balances security incidents and planned work, improves flow, and preserves risk visibility and operational responsiveness.
 
----
+This project demonstrates Scrum Master capability beyond running meetings. The artifacts show explicit team agreements, backlog readiness standards, impediment aging, retrospective experiments, flow metrics, team-health measurement, coaching, maturity assessment, dependency management, and ceremony-quality feedback.
 
-# Business Problem
+> **Disclosure:** This is a realistic Agile portfolio simulation. Metrics and scenarios are fictionalized for demonstration.
 
-| Challenge | Business Impact |
-|---|---|
-| Vulnerability remediation exceeded SLA targets | Increased security exposure |
-| Incident response coordination lacked structure | Delayed threat containment |
-| Security deployments caused operational delays | Increased business risk |
-| Cross-team dependencies blocked delivery | Reduced operational efficiency |
-| Security backlog prioritization lacked consistency | Reduced sprint predictability |
-| Executive visibility into security KPIs was limited | Increased stakeholder escalations |
+## Outcome Scorecard
 
----
-
-# Project Objectives
-
-- Improve cybersecurity Agile operations
-- Improve incident response coordination
-- Improve DevSecOps governance
-- Reduce vulnerability remediation timelines
-- Improve sprint predictability
-- Improve release readiness
-- Strengthen stakeholder communication
-- Improve dependency management
-- Increase operational security visibility
-
----
-
-# Scrum Master Responsibilities
-
-## Agile Facilitation
-- Facilitated sprint planning sessions
-- Conducted daily standups
-- Led sprint reviews and retrospectives
-- Facilitated backlog refinement meetings
-- Coordinated release readiness reviews
-- Supported Scrum of Scrums meetings
-
-## Cybersecurity Operations Coordination
-- Coordinated vulnerability remediation workflows
-- Facilitated incident response governance meetings
-- Escalated operational blockers
-- Managed dependency tracking
-- Coordinated DevSecOps alignment
-- Facilitated release governance reviews
-
-## Stakeholder Management
-- Delivered executive security KPI dashboards
-- Conducted sprint health reporting
-- Managed governance communication
-- Escalated operational risks
-- Facilitated stakeholder alignment meetings
-
-## Agile Coaching
-- Improved Scrum ceremony maturity
-- Strengthened backlog prioritization workflows
-- Improved sprint forecasting accuracy
-- Increased retrospective participation
-- Supported Agile transformation initiatives
-
----
-
-# Enterprise Cybersecurity Delivery Structure
-
-```text
-Executive Leadership
-        │
-Cybersecurity Program Leadership
-        │
-──────────────────────────────
-Scrum Masters
-Security Engineers
-SOC Analysts
-DevSecOps Teams
-Compliance Teams
-QA Teams
-Infrastructure Teams
-──────────────────────────────
-Business Stakeholders
-Security Operations Teams
-```
-
----
-
-# Program Increment (PI) Planning Summary
-
-| PI Objective | Owner | Status | Risk |
-|---|---|---|---|
-| Vulnerability Remediation Modernization | Security Engineering | Completed | Low |
-| SIEM Alert Optimization | SOC Team | In Progress | Medium |
-| DevSecOps Pipeline Integration | DevSecOps | Completed | Low |
-| Security KPI Automation | BI Team | In Progress | Medium |
-
----
-
-# Sprint Planning Summary
-
-| Sprint | Capacity | Committed Story Points | Delivered Story Points | Completion % | Risk Level |
-|---|---:|---:|---:|---:|---|
-| Sprint 1 | 150 | 128 | 123 | 96% | Medium |
-| Sprint 2 | 154 | 137 | 133 | 97% | Low |
-| Sprint 3 | 158 | 144 | 141 | 98% | Low |
-| Sprint 4 | 160 | 149 | 147 | 99% | Low |
-
----
-
-# Product Backlog Overview
-
-| Epic | Feature | Priority | Owner | Status |
-|---|---|---|---|---|
-| Incident Response | Threat Escalation Automation | High | Security Operations | Completed |
-| Vulnerability Management | Automated Vulnerability Tracking | High | Security Engineering | In Progress |
-| DevSecOps | Secure CI/CD Integration | High | DevSecOps Team | Completed |
-| Security Analytics | Executive Security KPI Dashboard | Medium | BI Team | Completed |
-| Compliance Governance | Audit Reporting Automation | Medium | Compliance Team | In Progress |
-
----
-
-# User Stories
-
-| Story ID | User Story | Acceptance Criteria | Priority |
-|---|---|---|---|
-| US-601 | As a SOC analyst, I want automated threat alerts | Alerts generate within 30 seconds | High |
-| US-602 | As leadership, I want real-time security KPIs | Dashboards refresh every 5 minutes | Medium |
-| US-603 | As DevSecOps, I want automated security validation | Security scans execute automatically | High |
-| US-604 | As compliance, I want automated audit reporting | Reports generate automatically | Medium |
-
----
-
-# RAID Log
-
-| ID | Risk / Issue | Impact | Mitigation Strategy | Status |
-|---|---|---|---|---|
-| R601 | Vulnerability remediation delays | High | Weekly remediation reviews | Monitoring |
-| R602 | Security deployment instability | High | Release readiness validation | Mitigated |
-| R603 | Cross-team dependency bottlenecks | Medium | Dependency sync meetings | Monitoring |
-| R604 | Sprint scope creep | Medium | Backlog governance reviews | Mitigated |
-
----
-
-# KPI Dashboard
-
-| KPI | Before Transformation | After Transformation |
+| KPI | Baseline | Final |
 |---|---:|---:|
-| Sprint Velocity | 52 | 88 |
-| Vulnerability SLA Compliance | 61% | 96% |
-| Escaped Security Defects | 13 | 2 |
-| Incident Response Readiness | 58% | 94% |
-| Stakeholder Satisfaction | 6.7 | 9.5 |
-| Release Predictability | 60% | 95% |
+| Velocity | 44 | **72** |
+| Sprint carryover | 36% | **10%** |
+| Escaped defects | 12 | **3** |
+| Stakeholder satisfaction | 6.6/10 | **9.0/10** |
+| Release predictability | 52% | **88%** |
+| Retro action completion | 37% | **87%** |
+| Median cycle time | 9.8 days | **5.5 days** |
+| Blocked-work rate | 22% | **8%** |
 
----
+## Sprint Trend
 
-# Agile Ceremonies
+| Sprint | Velocity | Carryover | Predictability | Retro Actions | Cycle Time | Blocked Work |
+|---|---:|---:|---:|---:|---:|---:|
+| Sprint 1 | 44 | 36% | 52% | 37% | 9.8 days | 22% |
+| Sprint 2 | 50 | 31% | 59% | 47% | 8.9 days | 19% |
+| Sprint 3 | 55 | 26% | 66% | 57% | 8.1 days | 16% |
+| Sprint 4 | 61 | 20% | 74% | 67% | 7.2 days | 14% |
+| Sprint 5 | 66 | 15% | 81% | 77% | 6.4 days | 11% |
+| Sprint 6 | 72 | 10% | 88% | 87% | 5.5 days | 8% |
 
-| Ceremony | Duration | Objective |
-|---|---|---|
-| Daily Standup | 15 Minutes | Team alignment and blocker escalation |
-| Sprint Planning | 2 Hours | Sprint prioritization and commitment |
-| Backlog Refinement | 1 Hour | Story clarification and sizing |
-| Sprint Review | 1 Hour | Stakeholder demo and feedback |
-| Retrospective | 1 Hour | Continuous improvement |
-| PI Planning | Quarterly | Cross-team roadmap coordination |
-| Incident Governance Review | Weekly | Security escalation alignment |
+## Product / Delivery Themes
 
----
+- Detection Engineering
+- Vulnerability Remediation
+- Incident Automation
+- Security Reporting
+- Access Governance
 
-# Stakeholder Communication Strategy
+## Primary Risks Managed
 
-| Stakeholder Group | Communication Type | Frequency |
-|---|---|---|
-| Executive Leadership | Security KPI Dashboard Review | Weekly |
-| Security Leadership | Incident Governance Review | Twice Weekly |
-| DevSecOps Leadership | Release Readiness Updates | Weekly |
-| Compliance Leadership | Audit Governance Reporting | Biweekly |
-| Business Stakeholders | Sprint Demo | End of Sprint |
+- Critical incident interruption
+- Dependency on infrastructure teams
+- Vulnerability surge
+- Priority conflict
+- Security evidence delays
 
----
+## Scrum Master Interventions
 
-# Release Planning Summary
+- Co-created working agreements for focus, communication, quality, escalation and collaboration.
+- Introduced explicit Definition of Ready and Definition of Done criteria.
+- Shifted sprint planning toward evidence-based forecasting and a clear Sprint Goal.
+- Created an impediment-aging process and escalation threshold.
+- Converted retrospectives into measurable experiments with follow-through.
+- Introduced team-health measurement to surface collaboration and safety concerns.
+- Added flow metrics alongside velocity.
+- Established dependency aging and named owners.
+- Built coaching plans for the Product Owner and Developers.
+- Assessed Agile maturity and created an improvement roadmap.
+- Measured ceremony effectiveness and adjusted facilitation.
 
-| Release | Objective | Quarter | Status |
-|---|---|---|---|
-| Release 1.0 | Security Operations Stabilization | Q1 | Completed |
-| Release 2.0 | SIEM Optimization | Q2 | In Progress |
-| Release 3.0 | DevSecOps Automation Expansion | Q3 | Planned |
+## Artifact Library
 
----
+The project includes 13 fully populated Scrum Master craft artifacts plus a multi-sheet Agile analytics workbook.
 
-# Business Outcomes
+## Final Assessment
 
-## Operational Improvements
-- Improved incident response readiness by 46%
-- Reduced vulnerability remediation delays by 53%
-- Increased DevSecOps governance maturity
-- Improved release readiness coordination
-
-## Delivery Improvements
-- Increased sprint velocity by 49%
-- Reduced security defects by 41%
-- Improved dependency management execution
-- Increased security deployment stability
-
-## Stakeholder Improvements
-- Increased executive confidence
-- Improved operational security visibility
-- Reduced escalation frequency
-- Improved cross-functional alignment
-
----
-
-# Tools & Technologies
-
-- Jira
-- Confluence
-- Azure DevOps
-- Splunk
-- SIEM Platforms
-- Microsoft Excel
-- PowerPoint
-- Agile KPI Dashboards
-- RAID Tracking
-- DevSecOps Governance
-
----
-
-# Agile Skills Demonstrated
-
-- Scrum Facilitation
-- Incident Response Coordination
-- DevSecOps Governance
-- PI Planning
-- Agile Coaching
-- Sprint Planning
-- Backlog Refinement
-- Stakeholder Management
-- Release Governance
-- Dependency Management
-- KPI Reporting
-- Risk Mitigation
-- Agile Transformation
-- Delivery Optimization
-- Cross-Functional Leadership
-
----
-
-# Repository Structure
-
-```text
-Sprint_Planning/
-Product_Backlog/
-Sprint_Backlogs/
-User_Stories/
-Burndown_Charts/
-Velocity_Reports/
-Retrospectives/
-Stakeholder_Communication/
-RAID_Logs/
-Risk_Management/
-KPI_Dashboards/
-Release_Planning/
-Agile_Ceremonies/
-PowerPoint/
-Excel_Files/
-Final_Report/
-```
-
----
-
-# Author
-
-Jamie Christian
-
-GitHub: https://github.com/JamieChristian22/scrum-master-agile-portfolio
-
----
-
-Inspired by enterprise Agile delivery operations, DevSecOps coordination, and cybersecurity governance workflows. :contentReference[oaicite:0]{index=0}
+The improvement pattern shows a healthier delivery system, not simply higher velocity. Carryover, defects, blocked work and cycle time declined while predictability, stakeholder confidence and retrospective follow-through improved.

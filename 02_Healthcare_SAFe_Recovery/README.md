@@ -1,304 +1,80 @@
-# 02 - Healthcare SAFe Recovery
-
-![Scrum](https://img.shields.io/badge/Framework-Scrum-blue)
-![SAFe](https://img.shields.io/badge/Methodology-SAFe-orange)
-![Agile](https://img.shields.io/badge/Approach-Agile-success)
-![Healthcare](https://img.shields.io/badge/Industry-Healthcare-red)
-![Jira](https://img.shields.io/badge/Tool-Jira-blue)
-![Azure DevOps](https://img.shields.io/badge/Platform-Azure_DevOps-0078D7)
-![PI Planning](https://img.shields.io/badge/Focus-PI_Planning-yellow)
-![Release Governance](https://img.shields.io/badge/Focus-Release_Governance-purple)
-![Enterprise Ready](https://img.shields.io/badge/Portfolio-Enterprise_Ready-brightgreen)
-
 # Enterprise Healthcare SAFe Recovery
 
 ## Project Overview
 
-This enterprise healthcare Agile recovery initiative focused on stabilizing a large-scale SAFe delivery environment supporting electronic medical records (EMR), patient engagement systems, claims processing platforms, clinical reporting tools, and healthcare operations modernization.
+**Domain:** Healthcare / SAFe  
+**Delivery teams:** 5  
+**Simulated team members:** 41  
+**Sprints analyzed:** 6
 
-The organization experienced major delivery instability due to:
-- missed Program Increment objectives,
-- release delays,
-- cross-team dependency failures,
-- inconsistent backlog prioritization,
-- stakeholder escalations,
-- and poor Agile governance maturity.
+Missed PI objectives, excessive carryover, unstable dependencies, inconsistent refinement, late validation, and stakeholder escalation across EMR, claims, patient engagement, and clinical reporting teams.
 
-The Scrum Master supported Agile Release Train coordination, PI Planning, sprint execution governance, release readiness, stakeholder communication, dependency management, and Agile coaching across multiple healthcare technology teams.
+### Scrum Master Objective
 
----
+Recover Agile Release Train execution, strengthen PI planning and dependency management, and improve delivery confidence in a regulated healthcare environment.
 
-# Business Problem
+This project demonstrates Scrum Master capability beyond running meetings. The artifacts show explicit team agreements, backlog readiness standards, impediment aging, retrospective experiments, flow metrics, team-health measurement, coaching, maturity assessment, dependency management, and ceremony-quality feedback.
 
-| Challenge | Business Impact |
-|---|---|
-| Missed PI objectives | Reduced executive confidence |
-| Sprint carryover exceeded 38% | Delayed healthcare releases |
-| Cross-team dependencies blocked delivery | Increased operational risk |
-| QA validation occurred late in sprints | Increased release defects |
-| Stakeholder communication was inconsistent | Escalation from leadership |
-| Agile ceremonies lacked standardization | Reduced Agile maturity |
+> **Disclosure:** This is a realistic Agile portfolio simulation. Metrics and scenarios are fictionalized for demonstration.
 
----
+## Outcome Scorecard
 
-# Project Objectives
-
-- Stabilize enterprise Agile delivery
-- Improve Program Increment predictability
-- Reduce sprint carryover
-- Improve release governance
-- Improve dependency management
-- Increase stakeholder visibility
-- Improve Agile maturity
-- Reduce production defects
-- Improve PI Planning execution
-
----
-
-# Scrum Master Responsibilities
-
-## Agile Facilitation
-- Facilitated sprint planning sessions
-- Conducted daily standups
-- Led sprint reviews and retrospectives
-- Coordinated backlog refinement
-- Facilitated release readiness reviews
-- Supported Scrum of Scrums coordination
-
-## SAFe Governance
-- Supported Agile Release Trains (ARTs)
-- Coordinated PI Planning sessions
-- Managed dependency alignment meetings
-- Maintained RAID governance
-- Escalated delivery risks to leadership
-- Supported enterprise Agile governance
-
-## Stakeholder Management
-- Delivered executive KPI dashboards
-- Facilitated stakeholder alignment meetings
-- Coordinated release governance reporting
-- Communicated sprint health metrics
-- Managed escalation workflows
-
-## Agile Coaching
-- Improved Scrum ceremony structure
-- Increased retrospective participation
-- Improved backlog refinement maturity
-- Improved sprint commitment accuracy
-- Supported Agile transformation initiatives
-
----
-
-# SAFe Delivery Structure
-
-```text
-Executive Leadership
-        │
-Release Train Engineer (RTE)
-        │
-──────────────────────────────
-Scrum Masters
-Product Owners
-Architecture Team
-Engineering Teams
-QA Teams
-DevOps Teams
-Operations Teams
-──────────────────────────────
-Healthcare Business Stakeholders
-Clinical Operations Teams
-```
-
----
-
-# Program Increment (PI) Planning Summary
-
-| PI Objective | Owner | Status | Risk |
-|---|---|---|---|
-| EMR Workflow Stabilization | Product Management | Completed | Low |
-| Claims Processing Optimization | Engineering | In Progress | Medium |
-| Patient Portal Modernization | Product Team | Completed | Low |
-| Clinical Reporting Automation | BI Team | In Progress | Medium |
-
----
-
-# Sprint Planning Summary
-
-| Sprint | Capacity | Committed Story Points | Delivered Story Points | Completion % | Risk Level |
-|---|---:|---:|---:|---:|---|
-| Sprint 1 | 148 | 126 | 121 | 96% | Medium |
-| Sprint 2 | 151 | 133 | 129 | 97% | Low |
-| Sprint 3 | 154 | 141 | 138 | 98% | Low |
-| Sprint 4 | 156 | 145 | 143 | 99% | Low |
-
----
-
-# Product Backlog Overview
-
-| Epic | Feature | Priority | Owner | Status |
-|---|---|---|---|---|
-| Patient Experience | Appointment Scheduling | High | Product Owner | Completed |
-| Clinical Reporting | Automated KPI Reporting | High | BI Team | In Progress |
-| Claims Processing | Claims Workflow Optimization | High | Engineering | In Progress |
-| Security & Compliance | HIPAA Audit Automation | Medium | Security Team | Completed |
-| DevOps Modernization | CI/CD Pipeline Standardization | Medium | DevOps | Completed |
-
----
-
-# User Stories
-
-| Story ID | User Story | Acceptance Criteria | Priority |
-|---|---|---|---|
-| US-201 | As a patient, I want faster appointment scheduling | Scheduling completes within 30 seconds | High |
-| US-202 | As leadership, I want real-time healthcare KPIs | Dashboard refreshes every 5 minutes | Medium |
-| US-203 | As operations, I want claims validation automation | Claims validated automatically | High |
-| US-204 | As QA, I want automated regression testing | Regression tests execute nightly | Medium |
-
----
-
-# RAID Log
-
-| ID | Risk / Issue | Impact | Mitigation Strategy | Status |
-|---|---|---|---|---|
-| R201 | Cross-team dependency delays | High | Weekly dependency sync meetings | Monitoring |
-| R202 | Sprint scope creep | Medium | Backlog refinement governance | Mitigated |
-| R203 | Resource constraints during release | Medium | Capacity planning | Open |
-| R204 | Late QA signoffs | High | Shift-left testing strategy | Mitigated |
-
----
-
-# KPI Dashboard
-
-| KPI | Before Recovery | After Recovery |
+| KPI | Baseline | Final |
 |---|---:|---:|
-| Sprint Velocity | 48 | 84 |
-| Sprint Carryover | 38% | 8% |
-| Escaped Defects | 18 | 4 |
-| PI Predictability | 54% | 91% |
-| Stakeholder Satisfaction | 6.5 | 9.3 |
-| Retrospective Completion | 46% | 92% |
+| Velocity | 64 | **94** |
+| Sprint carryover | 38% | **9%** |
+| Escaped defects | 18 | **5** |
+| Stakeholder satisfaction | 6.4/10 | **9.1/10** |
+| Release predictability | 54% | **91%** |
+| Retro action completion | 39% | **89%** |
+| Median cycle time | 10.2 days | **5.8 days** |
+| Blocked-work rate | 23% | **8%** |
 
----
+## Sprint Trend
 
-# Agile Ceremonies
+| Sprint | Velocity | Carryover | Predictability | Retro Actions | Cycle Time | Blocked Work |
+|---|---:|---:|---:|---:|---:|---:|
+| Sprint 1 | 64 | 38% | 54% | 39% | 10.2 days | 23% |
+| Sprint 2 | 70 | 32% | 61% | 49% | 9.3 days | 20% |
+| Sprint 3 | 76 | 26% | 69% | 59% | 8.4 days | 17% |
+| Sprint 4 | 82 | 21% | 76% | 69% | 7.6 days | 14% |
+| Sprint 5 | 88 | 15% | 84% | 79% | 6.7 days | 11% |
+| Sprint 6 | 94 | 9% | 91% | 89% | 5.8 days | 8% |
 
-| Ceremony | Duration | Objective |
-|---|---|---|
-| Daily Standup | 15 Minutes | Team alignment and blocker escalation |
-| Sprint Planning | 2 Hours | Sprint commitment and prioritization |
-| Backlog Refinement | 1 Hour | Story clarification and sizing |
-| Sprint Review | 1 Hour | Stakeholder demo and feedback |
-| Retrospective | 1 Hour | Continuous improvement |
-| PI Planning | Quarterly | Cross-team roadmap coordination |
-| Scrum of Scrums | Weekly | Dependency management |
+## Product / Delivery Themes
 
----
+- EMR Workflow Recovery
+- Claims Integration
+- Patient Portal Stabilization
+- Clinical Reporting
+- Release Train Governance
 
-# Stakeholder Communication Strategy
+## Primary Risks Managed
 
-| Stakeholder Group | Communication Type | Frequency |
-|---|---|---|
-| Executive Leadership | KPI Dashboard Review | Weekly |
-| Product Leadership | Sprint Health Reporting | Weekly |
-| Clinical Operations | Release Readiness Updates | Biweekly |
-| Engineering Leadership | Dependency Governance | Twice Weekly |
-| Healthcare Stakeholders | Sprint Demo | End of Sprint |
+- Clinical SME availability
+- Cross-team interface dependency
+- Late compliance review
+- PI scope overload
+- Test environment contention
 
----
+## Scrum Master Interventions
 
-# Release Planning Summary
+- Co-created working agreements for focus, communication, quality, escalation and collaboration.
+- Introduced explicit Definition of Ready and Definition of Done criteria.
+- Shifted sprint planning toward evidence-based forecasting and a clear Sprint Goal.
+- Created an impediment-aging process and escalation threshold.
+- Converted retrospectives into measurable experiments with follow-through.
+- Introduced team-health measurement to surface collaboration and safety concerns.
+- Added flow metrics alongside velocity.
+- Established dependency aging and named owners.
+- Built coaching plans for the Product Owner and Developers.
+- Assessed Agile maturity and created an improvement roadmap.
+- Measured ceremony effectiveness and adjusted facilitation.
 
-| Release | Objective | Quarter | Status |
-|---|---|---|---|
-| Release 1.0 | EMR Stabilization | Q1 | Completed |
-| Release 2.0 | Claims Automation | Q2 | In Progress |
-| Release 3.0 | Clinical Reporting Modernization | Q3 | Planned |
+## Artifact Library
 
----
+The project includes 13 fully populated Scrum Master craft artifacts plus a multi-sheet Agile analytics workbook.
 
-# Business Outcomes
+## Final Assessment
 
-## Operational Improvements
-- Improved PI predictability by 43%
-- Reduced sprint carryover by 52%
-- Increased Agile governance maturity
-- Improved release readiness coordination
-
-## Delivery Improvements
-- Increased sprint velocity by 47%
-- Reduced escaped production defects by 38%
-- Improved backlog refinement consistency
-- Improved dependency management execution
-
-## Stakeholder Improvements
-- Increased executive confidence
-- Improved healthcare operations visibility
-- Reduced stakeholder escalations
-- Improved cross-functional collaboration
-
----
-
-# Tools & Technologies
-
-- Jira
-- Confluence
-- Azure DevOps
-- Microsoft Excel
-- PowerPoint
-- SAFe Governance
-- Agile KPI Dashboards
-- Sprint Analytics
-- RAID Tracking
-- Release Governance
-
----
-
-# Agile Skills Demonstrated
-
-- Scrum Facilitation
-- SAFe Coordination
-- PI Planning
-- Agile Coaching
-- Sprint Planning
-- Backlog Refinement
-- Stakeholder Management
-- Release Governance
-- Dependency Management
-- KPI Reporting
-- Risk Mitigation
-- Agile Transformation
-- Delivery Optimization
-- Cross-Functional Leadership
-
----
-
-# Repository Structure
-
-```text
-Sprint_Planning/
-Product_Backlog/
-Sprint_Backlogs/
-User_Stories/
-Burndown_Charts/
-Velocity_Reports/
-Retrospectives/
-Stakeholder_Communication/
-RAID_Logs/
-Risk_Management/
-KPI_Dashboards/
-Release_Planning/
-Agile_Ceremonies/
-PowerPoint/
-Excel_Files/
-Final_Report/
-```
-
----
-
-# Author
-
-Jamie Christian
-
-GitHub: https://github.com/JamieChristian22/scrum-master-agile-portfolio
-
----
+The improvement pattern shows a healthier delivery system, not simply higher velocity. Carryover, defects, blocked work and cycle time declined while predictability, stakeholder confidence and retrospective follow-through improved.
