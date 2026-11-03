@@ -1108,3 +1108,7 @@ Organizations, teams, sprint metrics, stakeholder scenarios, impediments, delive
 ---
 
 **Built by Jamie Christian II — Scrum • Agile Delivery • Continuous Improvement**
+
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
